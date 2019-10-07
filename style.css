@@ -1,13 +1,14 @@
 .gridcontainer{
-    display: grid;
+    display: inline-grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto ;
     padding: 10px;
     grid-gap: 10px;
+    font-family: 'Lato', sans-serif;
 
 }
 .griditem{
-    background-color: rgba(255, 255, 255, 0.8);
+   
     padding: 5px;
     font-size: 30px;
     text-align: center;
@@ -33,9 +34,11 @@
 }
 .imgbanner{
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
+    margin-left: 25%;
+    margin-top: 5%;
 }
 .imgfade{
     grid-column-start: 1;
