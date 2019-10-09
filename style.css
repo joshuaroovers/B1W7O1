@@ -21,6 +21,17 @@
     grid-row-start: 1;
     grid-row-end: 2;
 }
+.links{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    margin-top: 40px;
+    margin-left: 200px;
+}
+a{
+    margin: 10px;
+}
 /* BANNER */
 .imgbannerbg{
     grid-column-start: 1;
